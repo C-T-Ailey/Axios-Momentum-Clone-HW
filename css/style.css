@@ -1,0 +1,41 @@
+body {
+    background-color: rgb(75, 235, 86);
+    background-size: contain;
+    font-family: Helvetica, sans-serif;
+    color: white;
+    text-shadow: 1px 2px 2px #000000;;
+}
+
+#quote {
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    bottom: 0px;
+    font-size: 20px;
+}
+
+#weather {
+    position: absolute;
+    top: 0px;
+    right: 15px;
+    text-align: right;
+}
+
+#weather p {
+    margin-top: -20px;
+}
+
+#time {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 95vh;
+    font-size: 100px;
+    text-align: center;
+}
+
+#time p {
+    margin-top: 0px;
+    font-size: 32px;
+}
